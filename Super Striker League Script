@@ -1,0 +1,234 @@
+local Vast = Instance.new("ScreenGui")
+local SSL_RAINBOW_BACKGROUND = Instance.new("Frame")
+local SuperStrikerLeague = Instance.new("Frame")
+local Title = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local BypassedSpeed = Instance.new("TextButton")
+local Close = Instance.new("TextButton")
+local Dupe = Instance.new("TextButton")
+local OptionalLoadMenu = Instance.new("Frame")
+local BlackBackground = Instance.new("Frame")
+local Destroy = Instance.new("TextButton")
+local Load = Instance.new("TextButton")
+local MainTitle = Instance.new("TextLabel")
+local bio = Instance.new("TextLabel")
+
+Vast.Name = "Vast"
+Vast.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+Vast.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+SSL_RAINBOW_BACKGROUND.Name = "SSL_RAINBOW_BACKGROUND"
+SSL_RAINBOW_BACKGROUND.Parent = Vast
+SSL_RAINBOW_BACKGROUND.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SSL_RAINBOW_BACKGROUND.BorderColor3 = Color3.fromRGB(0, 0, 0)
+SSL_RAINBOW_BACKGROUND.BorderSizePixel = 0
+SSL_RAINBOW_BACKGROUND.Position = UDim2.new(0.0714285746, 0, 0.087852478, 0)
+SSL_RAINBOW_BACKGROUND.Selectable = true
+SSL_RAINBOW_BACKGROUND.Size = UDim2.new(0, 533, 0, 461)
+SSL_RAINBOW_BACKGROUND.Visible = false
+
+SuperStrikerLeague.Name = "Super  Striker League"
+SuperStrikerLeague.Parent = SSL_RAINBOW_BACKGROUND
+SuperStrikerLeague.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+SuperStrikerLeague.BorderColor3 = Color3.fromRGB(0, 0, 0)
+SuperStrikerLeague.BorderSizePixel = 0
+SuperStrikerLeague.Position = UDim2.new(0.014844941, 0, 0.0124398516, 0)
+SuperStrikerLeague.Size = UDim2.new(0, 517, 0, 448)
+
+Title.Name = "Title"
+Title.Parent = SuperStrikerLeague
+Title.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Title.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Title.BorderSizePixel = 0
+Title.Position = UDim2.new(0.0129206823, 0, 0.021777017, 0)
+Title.Size = UDim2.new(0, 504, 0, 68)
+
+TextLabel.Parent = Title
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.BorderSizePixel = 0
+TextLabel.Size = UDim2.new(0, 504, 0, 68)
+TextLabel.Font = Enum.Font.Unknown
+TextLabel.Text = "Super Striker League | Vast"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextSize = 17.000
+
+BypassedSpeed.Name = "BypassedSpeed"
+BypassedSpeed.Parent = SuperStrikerLeague
+BypassedSpeed.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BypassedSpeed.BorderColor3 = Color3.fromRGB(0, 0, 0)
+BypassedSpeed.BorderSizePixel = 10
+BypassedSpeed.Position = UDim2.new(0.0309477765, 0, 0.274553567, 0)
+BypassedSpeed.Size = UDim2.new(0, 143, 0, 96)
+BypassedSpeed.Font = Enum.Font.Unknown
+BypassedSpeed.Text = "Bypassed Speed"
+BypassedSpeed.TextColor3 = Color3.fromRGB(0, 0, 0)
+BypassedSpeed.TextSize = 17.000
+BypassedSpeed.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+BypassedSpeed.TextStrokeTransparency = 0.850
+
+Close.Name = "Close"
+Close.Parent = SuperStrikerLeague
+Close.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Close.BackgroundTransparency = 1.000
+Close.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Close.BorderSizePixel = 0
+Close.Position = UDim2.new(0.820116043, 0, 0.0240091588, 0)
+Close.Size = UDim2.new(0, 86, 0, 67)
+Close.Font = Enum.Font.Unknown
+Close.Text = "X"
+Close.TextColor3 = Color3.fromRGB(255, 255, 255)
+Close.TextSize = 44.000
+Close.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+Close.TextStrokeTransparency = 0.850
+
+OptionalLoadMenu.Name = "OptionalLoadMenu"
+OptionalLoadMenu.Parent = Vast
+OptionalLoadMenu.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+OptionalLoadMenu.BorderColor3 = Color3.fromRGB(0, 0, 0)
+OptionalLoadMenu.BorderSizePixel = 0
+OptionalLoadMenu.Position = UDim2.new(0.178994089, 0, 0.101952277, 0)
+OptionalLoadMenu.Size = UDim2.new(0, 392, 0, 323)
+
+BlackBackground.Name = "BlackBackground"
+BlackBackground.Parent = OptionalLoadMenu
+BlackBackground.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+BlackBackground.BorderColor3 = Color3.fromRGB(0, 0, 0)
+BlackBackground.BorderSizePixel = 0
+BlackBackground.Position = UDim2.new(0.00769268721, 0, 0.00928792544, 0)
+BlackBackground.Size = UDim2.new(0, 385, 0, 317)
+
+Destroy.Name = "Destroy"
+Destroy.Parent = BlackBackground
+Destroy.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Destroy.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Destroy.BorderSizePixel = 0
+Destroy.Position = UDim2.new(0.540816307, 0, 0.696594417, 0)
+Destroy.Size = UDim2.new(0, 161, 0, 50)
+Destroy.Font = Enum.Font.Unknown
+Destroy.Text = "Destroy"
+Destroy.TextColor3 = Color3.fromRGB(0, 0, 0)
+Destroy.TextScaled = true
+Destroy.TextSize = 42.000
+Destroy.TextWrapped = true
+
+Load.Name = "Load"
+Load.Parent = BlackBackground
+Load.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Load.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Load.BorderSizePixel = 0
+Load.Position = UDim2.new(0.048469387, 0, 0.696594417, 0)
+Load.Size = UDim2.new(0, 161, 0, 50)
+Load.Font = Enum.Font.Unknown
+Load.Text = "Load"
+Load.TextColor3 = Color3.fromRGB(0, 0, 0)
+Load.TextScaled = true
+Load.TextSize = 42.000
+Load.TextWrapped = true
+
+MainTitle.Name = "MainTitle"
+MainTitle.Parent = BlackBackground
+MainTitle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+MainTitle.BackgroundTransparency = 1.000
+MainTitle.BorderColor3 = Color3.fromRGB(255, 255, 255)
+MainTitle.BorderSizePixel = 0
+MainTitle.Size = UDim2.new(0, 388, 0, 115)
+MainTitle.Font = Enum.Font.Unknown
+MainTitle.Text = "VAST"
+MainTitle.TextColor3 = Color3.fromRGB(255, 255, 255)
+MainTitle.TextScaled = true
+MainTitle.TextSize = 10.000
+MainTitle.TextWrapped = true
+
+bio.Name = "bio"
+bio.Parent = BlackBackground
+bio.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+bio.BackgroundTransparency = 1.000
+bio.BorderColor3 = Color3.fromRGB(255, 255, 255)
+bio.BorderSizePixel = 0
+bio.Position = UDim2.new(-0.0103896102, 0, 0.299684554, 0)
+bio.Size = UDim2.new(0, 388, 0, 115)
+bio.Font = Enum.Font.Unknown
+bio.Text = "A menu for SSL since so many people couldnt bypass there anticheat."
+bio.TextColor3 = Color3.fromRGB(255, 255, 255)
+bio.TextSize = 24.000
+bio.TextWrapped = true
+
+local function GOEUPUI_fake_script() -- OptionalLoadMenu.rainboweffect 
+  local script = Instance.new('LocalScript', OptionalLoadMenu)
+
+  function zigzag(X) return math.acos(math.cos(X*math.pi))/math.pi end
+
+  counter = 0
+
+  while wait(0.01)do
+    script.Parent.BackgroundColor3 = Color3.fromHSV(zigzag(counter),1,1)
+
+    counter = counter + 0.01 
+  end
+end
+coroutine.wrap(GOEUPUI_fake_script)()
+local function JXLFI_fake_script() -- SSL_RAINBOW_BACKGROUND.rainboweffect 
+  local script = Instance.new('LocalScript', SSL_RAINBOW_BACKGROUND)
+
+  function zigzag(X) return math.acos(math.cos(X*math.pi))/math.pi end
+
+  counter = 0
+
+  while wait(0.01)do
+    script.Parent.BackgroundColor3 = Color3.fromHSV(zigzag(counter),1,1)
+
+    counter = counter + 0.01 
+  end
+end
+coroutine.wrap(JXLFI_fake_script)()
+local function UFIJS_fake_script() -- Vast.Frame Scripts 
+  local script = Instance.new('LocalScript', Vast)
+
+  frame = script.Parent.SSL_RAINBOW_BACKGROUND
+  frame.Draggable = true
+  frame.Active = true
+  frame.Selectable = true
+
+  frame = script.Parent.OptionalLoadMenu
+  frame.Draggable = true
+  frame.Active = true
+  frame.Selectable = true
+end
+coroutine.wrap(UFIJS_fake_script)()
+
+Destroy.MouseButton1Click:Connect(function()
+  OptionalLoadMenu.Visible = false
+end)
+
+Load.MouseButton1Click:Connect(function()
+  OptionalLoadMenu.Visible = false
+  SSL_RAINBOW_BACKGROUND.Visible = true
+end)
+
+BypassedSpeed.MouseButton1Click:Connect(function()
+  local function TeleportWalk(character, speed)
+    local hb = game:GetService("RunService").Heartbeat
+
+    while true do
+      local hum = character:FindFirstChildWhichIsA("Humanoid")
+      if hum and hum.Parent then
+        local delta = hb:Wait()
+
+        if hum.MoveDirection.Magnitude > 0 then
+          character:TranslateBy(hum.MoveDirection * (speed or 1) * delta * 10)
+        end
+      else
+        break
+      end
+    end
+  end
+  
+  TeleportWalk(game.Players.LocalPlayer.Character, 1)
+end)
+
+Close.MouseButton1Click:Connect(function()
+  SSL_RAINBOW_BACKGROUND.Visible = false
+  game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 16
+end)
